@@ -73,10 +73,10 @@
  * @ingroup themeable
  */
 ?>
-<div class="container green_background"><h1>here you go ! (page.tpl.php override) asdfghjklqwerewrtytuiyi</h1>
+<div class="container green_background bradius_10"><h1>Nice image logo / header here :)</h1>
 </div>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?> asphalt_background">
-  <div class="container g">
+  <div class="container">
     <div class="navbar-header">
       <?php if ($logo): ?>
       <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">

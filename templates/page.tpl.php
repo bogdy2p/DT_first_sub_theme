@@ -75,8 +75,8 @@
 ?>
 <div class="container green_background bradius_10"><h1>Nice image logo / header here :)</h1>
 </div>
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?> asphalt_background">
-  <div class="container">
+<header id="navbar" role="banner" class="<?php print $navbar_classes; ?> meniu_albastru">
+  <!--<div class="container">-->
     <div class="navbar-header">
       <?php if ($logo): ?>
       <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
@@ -112,7 +112,7 @@
         </nav>
       </div>
     <?php endif; ?>
-  </div>
+  <!--</div>-->
 </header>
 
 <div class="main-container container grey_background bradius_10">

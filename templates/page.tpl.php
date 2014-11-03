@@ -73,9 +73,10 @@
  * @ingroup themeable
  */
 ?>
-<div class="container"><h1>here you go ! (page.tpl.php override) asdfghjklqwerewrtytuiyi</h1></div>
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="container">
+<div class="container green_background"><h1>here you go ! (page.tpl.php override) asdfghjklqwerewrtytuiyi</h1>
+</div>
+<header id="navbar" role="banner" class="<?php print $navbar_classes; ?> asphalt_background">
+  <div class="container g">
     <div class="navbar-header">
       <?php if ($logo): ?>
       <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
@@ -114,7 +115,7 @@
   </div>
 </header>
 
-<div class="main-container container">
+<div class="main-container container grey_background bradius_10">
 
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
@@ -131,13 +132,12 @@
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
-
     <section<?php print $content_column_class; ?>>
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-      <a id="main-content"></a>
+      <a id="main-content asdfgh"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
         <h1 class="page-header"><?php print $title; ?></h1>

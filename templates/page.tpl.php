@@ -73,7 +73,7 @@
  * @ingroup themeable
  */
 ?>
-<div class="container green_background bradius_10"><h1>Nice image logo / header here :)</h1>
+<div class="container sitewide_header bradius_10"><h1>Nice image logo / header here :)</h1>
 </div>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?> meniu_albastru">
   <!--<div class="container">-->
